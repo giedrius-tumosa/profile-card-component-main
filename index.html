@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 9px;
+        text-align: center;
+        margin-bottom: 0.4rem;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper flex-center">
+      <div class="card flex-col-nowrap shadow">
+        <section class="card__top flex-grow-2"></section>
+
+        <section class="card__mid flex-col-nowrap flex-grow-3">
+          <figure class="offset-vertically flex-col-nowrap">
+            <img
+              class="image-profile"
+              src="./images/image-victor.jpg"
+              alt="Profile picture."
+              width="96"
+              height="96"
+            />
+            <figcaption class="offscreen">
+              Profile picture of Victor Crest
+            </figcaption>
+          </figure>
+          <h3 class="heading padding-block">
+            Victor Crest<span class="heading--thin padding-inline">26</span>
+          </h3>
+          <p class="regular-text">London</p>
+        </section>
+
+        <section class="card__bottom grid-column flex-grow-1">
+          <span class="stats heading">80K</span>
+          <span class="stats-type small-text">Followers</span>
+          <span class="stats heading">803K</span>
+          <span class="stats-type small-text">Likes</span>
+          <span class="stats heading">1.4K</span>
+          <span class="stats-type small-text">Photos</span>
+        </section>
+        <section>
+          <div class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="#">Giedrius Tumosa</a>.
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--     Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos -->
